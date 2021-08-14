@@ -649,7 +649,7 @@
     }
     .btn{
         margin: auto;
-        width: 90%;
+        width: 100%;
         margin-top: 20px;
     }
     .sendbtn{
@@ -704,11 +704,48 @@
         text-shadow: 2px 2px 4px #000000;
     }
 
+    .webTeam{
+        text-align: center;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1050;
+        width: 100%;
+        height: 100%;
+        padding-top: 70px;
+        background-color: rgba(0, 0, 0,0.7);
+    }
+    .teamcont{
+        width: fit-content;
+        margin: auto;
+        background-color:#13547a;
+        padding: 20px;
+        border-radius: 7px;
+    }
+    .teamcont h1{
+        text-align:center;
+        padding: 5px;
+        background-color:rgb(139 149 216) ;
+        background-image: linear-gradient(45deg,#80d0c7 0%, #13547a 25%, rgb(19, 19, 49)50%,#13547a 75%, #80d0c7 100%)!important;
+        background-color: rgb(19, 19, 49);
+        color: white;
+        border-radius: 6px 0px 6px 0px;
+        font-weight: 800;
+    }
+    .teamcard{
+        display: flex;
+        gap: 10px;
+    }
 
 
     .whitecont{
         padding: 30px;
-        background-color:white;
+        background-color:#c8d8e4;
+    }
+
+    .hide{
+        display: none;
     }
 
 
@@ -897,5 +934,16 @@
         }
         .react-multiple-carousel__arrow{
             display: none;
+        }
+        .teamcont{
+            padding: 20px 10px;
+        }
+        .teamcont .datacard{
+            width: 80%;
+            /* padding: 20px 1px; */
+        }
+        .teamcont .datacard img{
+            width: 100px;
+            height: 100px;
         }
     }
