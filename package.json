@@ -1,8 +1,8 @@
 {
   "name": "rn-webstite",
-  "homepage": "http://Amool-kk.github.io/Radio-NITroz-",
+  "homepage": "https://radionitroz.in",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
