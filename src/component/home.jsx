@@ -13,7 +13,7 @@ const Home = () => {
                     <li><a href="https://www.facebook.com/radio.nitroz.nitdgp"><FacebookIcon /></a></li>
                     <li><a href="https://instagram.com/radionitroz_nitdgp?igshid=1pu6b8o84z66h"><InstagramIcon /></a></li>
                     <li><a href="https://www.youtube.com/channel/UCSENXkh5yNkcGiQez7y1OwA"><YouTubeIcon /></a></li>
-                    <li><a href="mailto:radionitroz.nitdgp@gmail.com"><MailIcon/></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCSENXkh5yNkcGiQez7y1OwA"><MailIcon/></a></li>
                 </div>
             </div>
         </>
