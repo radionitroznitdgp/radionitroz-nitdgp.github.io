@@ -168,7 +168,7 @@
         width:100vw;
         top: 0px;
         height: 58px;
-        z-index: 999;
+        z-index: 9999;
     }
     .nav ul li{
         list-style: none;
@@ -498,6 +498,9 @@
         color:black;
         background-color:white;
         z-index: 1;
+    }
+    #alumni .react-multiple-carousel__arrow{
+        z-index: 888;
     }
 
     .leftbtn{
@@ -933,6 +936,7 @@
             margin: 10px auto 0px -60px;
         }
         .react-multiple-carousel__arrow{
+
             display: none;
         }
         .teamcont{
