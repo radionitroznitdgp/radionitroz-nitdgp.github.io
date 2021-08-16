@@ -6,20 +6,17 @@ import { Link } from "react-scroll";
 const Navbar = () => {
 
     const [width, setWidth] = useState(window.innerWidth)
-    const [display, setdisplay] = useState()
 
     let count = 0;
     window.addEventListener('resize', () => {
         // console.log(window.innerWidth)
         setWidth(window.innerWidth)
         if (window.innerWidth > 1100) {
-            // document.querySelector('.menubox').style.display = "block";
-            setdisplay("block")
+            document.querySelector('.menubox').style.display = "block";
             document.querySelector('.nav').style.height = '58px'
             document.querySelector('.nav').style.display = 'flex';
         } if (window.innerWidth <= 1100) {
-            // document.querySelector('.menubox').style.display = "none";
-            setdisplay("none");
+            document.querySelector('.menubox').style.display = "none";
             document.querySelector('.nav').style.height = '58px';
             document.querySelector('.nav').style.display = 'block';
         }
@@ -28,7 +25,7 @@ const Navbar = () => {
     document.addEventListener('load', () => {
         console.log(window.innerWidth, "navbar")
         if (width < 1100) {
-            document.querySelector('.menubosx').style.display = "none";
+            document.querySelector('.menubox').style.display = "none";
             // console.log(window.innerWidth,"none")
             document.querySelector('.nav').style.display = 'block';
 
@@ -36,6 +33,20 @@ const Navbar = () => {
             document.querySelector('.menubox').style.display = "block";
             // console.log(window.innerWidth,"block")
 
+        }
+    })
+
+    document.addEventListener('scroll',()=>{
+        // console.log("scroll kiya ")
+        if (width < 1100) {
+        document.querySelector('.menubox').style.display = "none";
+        document.querySelector('.nav').style.height = '58px';
+        document.querySelector('.nav').style.display = 'block';
+        }
+        if (width > 1100) {
+            document.querySelector('.menubox').style.display = "block";
+            document.querySelector('.nav').style.height = '58px'
+            document.querySelector('.nav').style.display = 'flex';
         }
     })
 
@@ -87,7 +98,7 @@ const Navbar = () => {
                     <p></p>
                     <p></p>
                 </div>
-                <div className="menubox" style={{ display: display }}>
+                <div className="menubox">
                     <div className="navmenu left">
                         <ul className="navbars">
                             <li className="nav-item" >
@@ -185,94 +196,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
-
-// //Default active on home
-// document.querySelector('#s1').classList.add("active");
-
-
-// /*
-// Smooth scrolling
-// */
-// document.querySelector("#s1").click(function() {
-//      document.querySelector('html, body').animate({
-//          scrollTop:        document.querySelector("#1").offset().top-65
-//      }, 1000);
-//   return false;
-//  });
-
-// document.querySelector("#s2").click(function() {
-//      document.querySelector('html, body').animate({
-//          scrollTop:        document.querySelector("#2").offset().top-100
-//      }, 1000);
-//   return false;
-//  });
-
-// document.querySelector("#s3").click(function() {
-//      document.querySelector('html, body').animate({
-//          scrollTop:        document.querySelector("#3").offset().top-100
-//      }, 1000);
-//   return false;
-//  });
-
-// document.querySelector("#s4").click(function() {
-//   document.querySelector(this).classList.add("active");
-//      document.querySelector('html, body').animate({
-//          scrollTop:        document.querySelector("#4").offset().top-100
-//      }, 1000);
-//   return false;
-//  });
-
-// document.querySelector("#toTop").click(function() {
-//      document.querySelector('html, body').animate({
-//          scrollTop:        document.querySelector("#1").offset().top-65
-//      }, 1000);
-//   return false;
-//  });
-// /*document.querySelector('#2').waypoint(function(event, direction) {
-
-//   document.querySelector(".nav-container ul li").children().removeClass("active");
-//   document.querySelector("#s2").classList.add("active");
-
-//   if (direction === 'down') {
-//     offset = 90;
-//   } 
-//   else {
-//     offset = 20;
-//   }
-// });*/
-
-
-// /*
-// Using jquery waypoints to change active on scroll
-// */
-// document.querySelector('#2').waypoint(function() {
-
-//   document.querySelector(".nav-container ul li").children().removeClass("active");
-//   document.querySelector("#s2").classList.add("active");
-
-// }, { offset: 101 });
-
-
-// document.querySelector('#3').waypoint(function() {
-//   document.querySelector(".nav-container ul li").children().removeClass("active");
-//   document.querySelector("#s3").classList.add("active");
-// }, { offset: 101 });
-
-// document.querySelector('#4').waypoint(function() {
-//   document.querySelector(".nav-container ul li").children().removeClass("active");
-//   document.querySelector("#s4").classList.add("active");
-// }, { offset: 101 });
-
-// document.querySelector('#1').waypoint(function() {
-//   document.querySelector(".nav-container ul li").children().removeClass("active");
-//   document.querySelector("#s1").classList.add("active");
-// }, { offset: 0 });
-
-// document.querySelector('#2').waypoint(function() {
-//   document.querySelector(".to-top").classList.add("visible");
-// }, { offset: 100 });
-
-// document.querySelector('#1').waypoint(function(event, direction) {
-//   document.querySelector(".to-top").removeClass("visible");
-// }, { offset: 30 });
