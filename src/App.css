@@ -845,6 +845,9 @@
             height: 100px;
             margin-right: 15px;
         }
+        .items .link img{
+            width: 12rem!important;
+        }
     }
 
     
@@ -918,7 +921,7 @@
             margin: 10px auto 0px auto;
         }
         .items .link img{
-            width: 15rem!important;
+            width: 10rem!important;
         }
         .contact input{
             width: 80vw !important;

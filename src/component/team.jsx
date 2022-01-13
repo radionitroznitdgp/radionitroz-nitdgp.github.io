@@ -11,7 +11,6 @@ import pavan from '../images/members/pavan.jpg';
 
 import sonali from '../images/members/sonali.jpg';
 import ayush from '../images/members/ayush.jpg';
-import vedang from '../images/members/vp.jpg';
 import aditya from '../images/members/aditya.jpg';
 import aditi from '../images/members/aditi.jpg';
 import ayushsingh from '../images/members/Ayush Singh.jpg';
@@ -24,7 +23,6 @@ import sankalp from '../images/members/sankalp.jpg';
 import sai from '../images/members/sai.jpg';
 import priyanshu from '../images/members/priyanshu.jpg';
 import arindam from '../images/members/arindam.jpg';
-import ramashis from '../images/members/Ramashis Bhattacharya.jpg';
 import subham from '../images/members/Shubham paul.jpg';
 import rajhrit from '../images/members/Rajhrit Banerjee.jpg';
 import drishita from '../images/members/Drishita Nag.jpg';
@@ -109,13 +107,6 @@ const team = () => {
             img: arindam,
             phone: 'tel:7477776326',
             mail: 'mailto:arindam.140102@gmail.com'
-        },
-        {
-            name: 'Ramashis Bhattacharya',
-            post: 'Event Management',
-            img: ramashis,
-            phone: 'tel:7063074658',
-            mail: 'mailto:rockrama44@gmail.com'
         },
         {
             name: 'Subham Paul',
@@ -382,20 +373,6 @@ const team = () => {
                                     </div>
                                     <div className="member-detail">
                                         <h4><b>Ayush Chaudhary</b> <span>Sponsorship Head</span></h4>
-                                    </div>
-                                </div>
-                                <div className="datacard">
-                                    <img src={vedang} alt="Vedang Pancholi" />
-                                    <div className="social-link">
-                                        <a className="social" href="mailto:vp.19u10233@btech.nitdgp.ac.in">
-                                            <MailIcon />
-                                        </a>
-                                        <a className="social" href="tel:9831417775">
-                                            <PhoneIcon />
-                                        </a>
-                                    </div>
-                                    <div className="member-detail">
-                                        <h4><b>Vedang Pancholi</b> <span>Web Developer Head</span></h4>
                                     </div>
                                 </div>
                                 <div className="datacard">

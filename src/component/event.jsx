@@ -13,6 +13,7 @@ import redfmcollab from '../images/event/redfmcollab.jpg';
 import shaamenoor from '../images/event/shaamenoor.jpg';
 import TASHAANBAAZ7 from '../images/event/TASHAANBAAZ7.jpg';
 import voice_it_out from '../images/event/voice_it_out.jpg';
+import Nexus_Verse from '../images/event/NEXUS_VERSE.jpg';
 
 const Event = () => {
     return (
@@ -23,6 +24,21 @@ const Event = () => {
                 </div>
                 <div className="body">
                     <Carousel>
+                    <Carousel.Item interval={5000}>
+                            <img
+                                className="d-block w-100"
+                                src={Nexus_Verse}
+                                alt="First slide"
+                            />
+                            <Carousel.Caption>
+                                <h3>NEXUS VERSE</h3>
+                                <p>
+                                    Growing up Jigsaw puzzle has often been a funand jubilant pastimewe all had. The little pieces interlocking and nonchalantly painting the infinite. The Nexus Verse is an upgradedand maverick version of a trivia event whereenven
+                                    the simplest entity is entangled into alabyrinth of a puzzle. This event had an overwhelming participation of 200+ pepole. 
+                                </p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
                         <Carousel.Item interval={5000}>
                             <img
                                 className="d-block w-100"
