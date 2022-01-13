@@ -4,6 +4,9 @@ import link2 from '../images/sponsor/wildstone.jpeg'
 import link3 from '../images/sponsor/pizza.jpeg'
 import link4 from '../images/sponsor/redFm.jpeg'
 import link5 from '../images/sponsor/gg.jpeg'
+import link6 from '../images/sponsor/wileyindia.jpg'
+import link7 from '../images/sponsor/thementorx.jpg'
+import link8 from '../images/sponsor/hoverrobotix.jpg'
 
 
 
@@ -54,6 +57,34 @@ const Sponsor = () => {
 
                             <div className="link">
                                 <img src={link5} alt="" />
+                            </div>
+
+                        </a>
+                    </div>
+
+                    <div className="items">
+                        <a href="https://www.wileyindia.com/">
+
+                            <div className="link">
+                                <img src={link6} alt="" />
+                            </div>
+
+                        </a>
+                    </div>
+                    <div className="items">
+                        <a href="https://www.hoverrobotix.com/">
+
+                            <div className="link">
+                                <img src={link7} alt="" />
+                            </div>
+
+                        </a>
+                    </div>
+                    <div className="items">
+                        <a href="https://www.thementorx.com/">
+
+                            <div className="link">
+                                <img src={link8} alt="" />
                             </div>
 
                         </a>
