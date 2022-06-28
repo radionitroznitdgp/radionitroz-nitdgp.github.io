@@ -22,6 +22,16 @@ const responsive = {
 
 const dataalumni = [
     {
+        year: '2018-202',
+        name: ['Arjya Singh Roy',
+            'Ankita Singha',
+            'Gourab Mondal',
+            'Sayantan Maity',
+            'Kiran P Abraham',
+            'Pavan Preetham',
+        ]
+    },
+    {
         year: '2017-2021',
         name: ['Kuldeep Suthar',
             'Pooja Yadav',
