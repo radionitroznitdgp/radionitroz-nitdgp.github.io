@@ -22,7 +22,17 @@ const responsive = {
 
 const dataalumni = [
     {
-        year: '2018-202',
+        year: '2019-2023',
+        name: ['Sonali Sah',
+            'Aditya Gupta',
+            'Ayush Chaudhary',
+            'Ayush Singh',
+            'Aditi Gedam',
+            'Pragya Kumari',
+        ]
+    },
+    {
+        year: '2018-2022',
         name: ['Arjya Singh Roy',
             'Ankita Singha',
             'Gourab Mondal',
