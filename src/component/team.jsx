@@ -21,21 +21,21 @@ import Vineet from '../images/firstyear/Vineet.jpeg';
 import Sobhag from '../images/firstyear/Sobhag.jpeg'; 
 import Somapatrao from '../images/firstyear/Somapatrao.jpeg'; 
   
-import Aniket from '../images/firstyear/Anshika.jpg';  
-import Nabina from '../images/firstyear/Arnab Banerjee.jpg';  
-import Shubham from '../images/firstyear/Kirthika.jpg';  
-import Dharma from '../images/firstyear/Mohammed Asif.jpg';  
-import Saptarshi from '../images/firstyear/PRANESH.jpg';  
-import Sumit from '../images/firstyear/ParthibSen.jpg';  
-import Venkateshwarlu from '../images/firstyear/Raj.jpg';  
-import Rishav from '../images/firstyear/Rupali.jpg';  
-import Rajeev from '../images/firstyear/SAI SAHIL.JPG';  
-import Dyuti from '../images/firstyear/Sarmistha.jpg';  
-import Debashis from '../images/firstyear/cherry.jpeg';  
-import Aditya from '../images/firstyear/jayant.jpg'; 
-import Vineet from '../images/firstyear/karthik.jpg'; 
-import Sobhag from '../images/firstyear/ramya.jpg'; 
-import Somapatrao from '../images/firstyear/sreyashi.jpg'; 
+import Anshika from '../images/firstyear/Anshika.jpg';  
+import Arnab from '../images/firstyear/Arnab Banerjee.jpg';  
+import Kirthika from '../images/firstyear/Kirthika.jpg';  
+import Mohammed_Asif from '../images/firstyear/Mohammed Asif.jpg';  
+import PRANESH from '../images/firstyear/PRANESH.jpg';  
+import ParthibSen from '../images/firstyear/ParthibSen.jpg';  
+import Raj from '../images/firstyear/Raj.jpg';  
+import Rupali from '../images/firstyear/Rupali.jpg';  
+import SAISAHIL from '../images/firstyear/SAI SAHIL.JPG';  
+import Sarmistha from '../images/firstyear/Sarmistha.jpg';  
+import cherry from '../images/firstyear/cherry.jpeg';  
+import jayant from '../images/firstyear/jayant.jpg'; 
+import karthik from '../images/firstyear/karthik.jpg'; 
+import ramya from '../images/firstyear/ramya.jpg'; 
+import sreyashi from '../images/firstyear/sreyashi.jpg'; 
 
 // import sonali from '../images/members/sonali.jpg';
 // import ayush from '../images/members/ayush.jpg';
@@ -116,7 +116,7 @@ const team = () => {
         },
         {
             name: 'Nabina Layek',
-            post: 'RJ Or VJ',
+            post: 'Content Writer',
             img: Nabina,
             phone: 'tel:7363864294',
             mail: 'mailto:layeknabina@gmail.com'
@@ -137,14 +137,14 @@ const team = () => {
         },
         {
             name: 'Saptarshi Ghosh',
-            post: 'RJ&VJ',
+            post: 'Content Writer',
             img: Saptarshi,
             phone: 'tel:7384470959',
             mail: 'mailto:saptarshi123sg@gmail.com'
         },
         {
             name: 'Sumit Rastogi',
-            post: 'RJ&VJ',
+            post: 'Event Management',
             img: Sumit,
             phone: 'tel:9142794435',
             mail: 'mailto:sumitrastogi2003@gmail.com'
@@ -224,7 +224,7 @@ const team = () => {
         {
             name: 'Mohammed Asif ',
             post: 'Graphic Design',
-            img: Mohammed Asif,
+            img: Mohammed_Asif,
             phone: 'tel:8967290251',
             mail: 'mailto:mdasif28049@gmail.com'
         },
@@ -259,7 +259,7 @@ const team = () => {
         {
             name: 'Arnab Banerjee',
             post: 'Content Writer',
-            img: Arnab Banerjee,
+            img: Arnab,
             phone: 'tel:9064592539',
             mail: 'mailto:arnabbanerjee2003@gmail.com'
         },
@@ -280,7 +280,7 @@ const team = () => {
         {
             name: 'D.Sai Sahil',
             post: 'Web Development and Graphic Design',
-            img: SAI SAHIL,
+            img: SAISAHIL,
             phone: 'tel: 8328078950',
             mail: 'mailto:saisahilduvvuu1@gmail.com'
         },
@@ -338,7 +338,7 @@ const team = () => {
             e.target.classList.add('active')
             document.querySelector('#third').classList.remove('hide')
         }
-         else if (e.target.innerHTML === 'FIRST YEAR') {
+         else if (e.target.innerHTML === 'SECOND YEAR') {
             e.target.classList.add('active')
             document.querySelector('#first').classList.remove('hide')
         }
@@ -387,7 +387,7 @@ const team = () => {
                                 <a href="#second" className="yearlink" onClick={showmembers}>SECOND YEAR</a>
                             </li> */}
                             <li>
-                                <a href="#first" className="yearlink" onClick={showmembers}>FIRST YEAR</a>
+                                <a href="#first" className="yearlink" onClick={showmembers}>SECOND YEAR</a>
                             </li>
                         </div>
                         <div className="teamdata">
