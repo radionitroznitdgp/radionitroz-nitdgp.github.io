@@ -20,6 +20,22 @@ import Aditya from '../images/firstyear/Adityanew.jpeg';
 import Vineet from '../images/firstyear/Vineet.jpeg'; 
 import Sobhag from '../images/firstyear/Sobhag.jpeg'; 
 import Somapatrao from '../images/firstyear/Somapatrao.jpeg'; 
+  
+import Anshika from '../images/firstyear/Anshika.jpg';  
+import Arnab from '../images/firstyear/Arnab Banerjee.jpg';  
+import Kirthika from '../images/firstyear/Kirthika.jpg';  
+import Mohammed_Asif from '../images/firstyear/Mohammed Asif.jpg';  
+import PRANESH from '../images/firstyear/PRANESH.jpg';  
+import ParthibSen from '../images/firstyear/ParthibSen.jpg';  
+import Raj from '../images/firstyear/Raj.jpg';  
+import Rupali from '../images/firstyear/Rupali.jpg';  
+import SAISAHIL from '../images/firstyear/SAI SAHIL.JPG';  
+import Sarmistha from '../images/firstyear/Sarmistha.jpg';  
+import cherry from '../images/firstyear/cherry.jpeg';  
+import jayant from '../images/firstyear/jayant.jpg'; 
+import karthik from '../images/firstyear/karthik.jpg'; 
+import ramya from '../images/firstyear/ramya.jpg'; 
+import sreyashi from '../images/firstyear/sreyashi.jpg'; 
 
 // import sonali from '../images/members/sonali.jpg';
 // import ayush from '../images/members/ayush.jpg';
@@ -100,7 +116,7 @@ const team = () => {
         },
         {
             name: 'Nabina Layek',
-            post: 'RJ Or VJ',
+            post: 'Content Writer',
             img: Nabina,
             phone: 'tel:7363864294',
             mail: 'mailto:layeknabina@gmail.com'
@@ -121,14 +137,14 @@ const team = () => {
         },
         {
             name: 'Saptarshi Ghosh',
-            post: 'RJ&VJ',
+            post: 'Content Writer',
             img: Saptarshi,
             phone: 'tel:7384470959',
             mail: 'mailto:saptarshi123sg@gmail.com'
         },
         {
             name: 'Sumit Rastogi',
-            post: 'RJ&VJ',
+            post: 'Event Management',
             img: Sumit,
             phone: 'tel:9142794435',
             mail: 'mailto:sumitrastogi2003@gmail.com'
@@ -192,101 +208,107 @@ const team = () => {
 
     const Firstyear = [
         {
-            name: 'Rounak Kumar Jha ',
-            post: 'Web D',
-            img: Rounak,
-            phone: 'tel:6289953196',
-            mail: 'mailto:developer.dextrix@gmail.com'
+            name: 'Jayant Mandal ',
+            post: 'Video Editor and Event Management',
+            img: jayant,
+            phone: 'tel:8102179107',
+            mail: 'mailto:jayantroot3@gmail.com'
         },
         {
-            name: 'Basab Lekri',
-            post: 'Web D',
-            img: Basab,
-            phone: 'tel:9382747295',
-            mail: 'mailto:bumbalekri08@gmail.com'
-        },
-        {
-            name: 'Priyal Bhalerao ',
-            post: 'Graphic Design',
-            img: Priyal,
-            phone: 'tel:8767747389',
-            mail: 'mailto:priyalbhalerao13@gmail.com'
-        },
-        {
-            name: 'Aniket Kamble ',
-            post: 'Graphic Design',
-            img: Aniket,
-            phone: 'tel:9325244725',
-            mail: 'mailto:aniketkamble9192@gmail.com'
-        },
-        {
-            name: 'Nabina Layek',
-            post: 'RJ Or VJ',
-            img: Nabina,
-            phone: 'tel:7363864294',
-            mail: 'mailto:layeknabina@gmail.com'
-        },
-        {
-            name: 'Shubham Ghosh',
-            post: 'Graphic design',
-            img: Shubham,
-            phone: 'tel:9153042605',
-            mail: 'mailto:ghoshshubham930@gmail.com'
-        },
-        {
-            name: 'Chowdhari Dharma Teja',
+            name: 'S KIRTHIKA',
             post: 'Event Management',
-            img: Dharma,
-            phone: 'tel:8919428507',
-            mail: 'mailto:dharmateja3232@gmail.com'
+            img: Kirthika,
+            phone: 'tel:9476051610',
+            mail: 'mailto:skirthika2409@gmail.com'
         },
         {
-            name: 'Saptarshi Ghosh',
-            post: 'RJ&VJ',
-            img: Saptarshi,
-            phone: 'tel:7384470959',
-            mail: 'mailto:saptarshi123sg@gmail.com'
-        },
-        {
-            name: 'Sumit Rastogi',
-            post: 'RJ&VJ',
-            img: Sumit,
-            phone: 'tel:9142794435',
-            mail: 'mailto:sumitrastogi2003@gmail.com'
-        },
-        {
-            name: 'K.E.N.S Venkateshwarlu ',
-            post: 'Video Editor',
-            img: Venkateshwarlu,
-            phone: 'tel:9032795418',
-            mail: 'mailto:venlyndl2001@gmail.com'
-        },
-        {
-            name: 'Rishav Mondal',
-            post: 'Video Editor',
-            img: Rishav,
-            phone: 'tel:9126398839',
-            mail: 'mailto:mrishav512@gmail.com '
-        },
-        {
-            name: 'Rajeev Kumar Yadav ',
+            name: 'Mohammed Asif ',
             post: 'Graphic Design',
-            img: Rajeev,
-            phone: 'tel:7380984141',
-            mail: 'mailto:yadavrajeev1587@gmail.com'
+            img: Mohammed_Asif,
+            phone: 'tel:8967290251',
+            mail: 'mailto:mdasif28049@gmail.com'
         },
         {
-            name: 'Dyuti Biswas',
-            post: 'Photographer',
-            img: Dyuti,
-            phone: 'tel:8388856057',
-            mail: 'mailto:dyutibiswas1@gmail.com '
+            name: 'Ramya Akalankam ',
+            post: 'Event Management',
+            img: ramya,
+            phone: 'tel:9059167355',
+            mail: 'mailto:akalankamramya84@gmail.com'
+        },
+        {
+            name: 'karthikeya',
+            post: 'Video Editing ',
+            img: karthik,
+            phone: 'tel:8977025556',
+            mail: 'mailto: karthikeya4@gmail.com'
+        },
+        {
+            name: 'K PRANESH RAO',
+            post: 'Event Management',
+            img: PRANESH,
+            phone: 'tel:9679508518',
+            mail: 'mailto:praneshrao6936@gmail.com'
+        },
+        {
+            name: 'Rupali Kumari',
+            post: 'Content Writer',
+            img: Rupali,
+            phone: 'tel:9153265972',
+            mail: 'mailto:rkumarirupali3489@gmail.com'
+        },
+        {
+            name: 'Arnab Banerjee',
+            post: 'Content Writer',
+            img: Arnab,
+            phone: 'tel:9064592539',
+            mail: 'mailto:arnabbanerjee2003@gmail.com'
+        },
+        {
+            name: 'Anshika Goswami',
+            post: 'Event Management',
+            img: Anshika,
+            phone: 'tel:8009591725',
+            mail: 'mailto:anshika4607@gmail.com'
+        },
+        {
+            name: 'D.V.prasanna Kumar ',
+            post: 'Video Editor',
+            img: cherry,
+            phone: 'tel:9182391382',
+            mail: 'mailto:cherry00@gmail.com'
+        },
+        {
+            name: 'D.Sai Sahil',
+            post: 'Web Development and Graphic Design',
+            img: SAISAHIL,
+            phone: 'tel: 8328078950',
+            mail: 'mailto:saisahilduvvuu1@gmail.com'
+        },
+        {
+            name: 'Shreyasi Roy',
+            post: 'Graphic Design',
+            img: sreyashi,
+            phone: 'tel: 8116196534',
+            mail: 'mailto:shreyasi6653roy@gmail.com'
+        },
+        {
+            name: 'Sarmistha Naskar',
+            post: 'Content Writting ',
+            img: Sarmistha,
+            phone: 'tel:6289762949',
+            mail: 'mailto:Sarmisthan2003@gmail.com '
         }, {
-            name: 'Debashis Panigrahi ',
+            name: 'Parthib Sen',
             post: 'Event Management',
-            img: Debashis,
-            phone: 'tel:9938769662',
-            mail: 'mailto:debashis2003panigrahi@gmail.com'
+            img: ParthibSen,
+            phone: 'tel:8670172003',
+            mail: 'mailto:senparthib123@gmail.com'
+        }, {
+            name: 'Sk Raj Ali',
+            post: 'Web Development',
+            img: Raj,
+            phone: 'tel:9635637725',
+            mail: 'mailto:skrajali062003@gmail.com'
         },
     ]
 
@@ -316,7 +338,7 @@ const team = () => {
             e.target.classList.add('active')
             document.querySelector('#third').classList.remove('hide')
         }
-         else if (e.target.innerHTML === 'FIRST YEAR') {
+         else if (e.target.innerHTML === 'SECOND YEAR') {
             e.target.classList.add('active')
             document.querySelector('#first').classList.remove('hide')
         }
@@ -365,7 +387,7 @@ const team = () => {
                                 <a href="#second" className="yearlink" onClick={showmembers}>SECOND YEAR</a>
                             </li> */}
                             <li>
-                                <a href="#first" className="yearlink" onClick={showmembers}>FIRST YEAR</a>
+                                <a href="#first" className="yearlink" onClick={showmembers}>SECOND YEAR</a>
                             </li>
                         </div>
                         <div className="teamdata">
@@ -547,5 +569,3 @@ const team = () => {
 }
 
 export default team;
-
-// rgba(77, 168, 218, 0.4)!important
