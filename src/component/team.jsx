@@ -569,5 +569,3 @@ const team = () => {
 }
 
 export default team;
-
-// rgba(77, 168, 218, 0.4)!important
